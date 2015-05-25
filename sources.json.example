@@ -1,0 +1,6 @@
+{
+    "www": {
+        "Site1" : "http://google.com",
+        "Site2" : "http://example.com" 
+    }
+}

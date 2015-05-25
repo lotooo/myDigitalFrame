@@ -24,7 +24,7 @@ for name, url in sources['www'].iteritems():
     # Hash the site name to get something unique and without space in the title
     m = sha1()
     m.update(name)
-    folder = m.hexdigest()
+    folder = 'downloads/' + m.hexdigest()
 
     logging.debug('Folder to store the pictures: %s' % folder)
 
